@@ -9,8 +9,10 @@ global current_user
 MEDIA_DIR = "./media/"
 
 songs = [Song("circles", "3:35", "2019-08-30", Genre.POP),
-         Song("birds_of_a_feather", "4:14", "2021-11-19", Genre.POP)]
-
+         Song("birds_of_a_feather", "4:14", "2021-11-19", Genre.POP),
+         Song("juna", "3:25", "2000-01-01", Genre.OTHER),
+         Song("wet_dream", "2:33", "2000-01-01", Genre.ROCK),
+         Song("heavy", "4:13", "2000-01-01", Genre.OTHER)]
 
 def reproduce_song(song):
     # Inicializar el mixer
